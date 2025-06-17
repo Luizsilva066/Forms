@@ -1,109 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forms</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>CADASTRO CLIENTE</h1>
-        <div class="nome">
-            <form >
-                <label for="name">Nome</label>
-                <input type="Digite seu primeiro nome" placeholder="Digite seu primeiro nome">
-            </div>
-            
-            <div class="sobrenome">
-        
-                    <label for="name">Sobrenome</label>
-                    <input type="name" placeholder="Digite seu Sobrenome">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>forms</title>
+                <link rel="stylesheet" href="./style.css">
+                <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">">
+        </head>
+        <body>
+                <main>
+                        <div class="container">
+
+                                <h1>CADASTRO CLIENTE</h1>
+
+                            <div class="identificacao">
+                                    <div class="nome">
+                                        <form >
+                                            <label for="name">Nome</label>
+                                            <input type="name" placeholder="Digite seu primeiro nome">
+                                        </div>
+                                        
+                                        <div class="sobrenome">
+                                    
+                                                <label for="name">Sobrenome</label>
+                                                <input type="name" placeholder="Digite seu Sobrenome">
+                                                
+                                       </div>
+
+                                </div>
+                            <div class="email">
+                            
+                                    <label for="name">E-mail</label>
+                                    <input type="name" placeholder="Digite seu e-mail">
+                                
+                            </div>
+                            <div class="id">
+                                    
+                                    <div class="dataNascimento">
+                                    
+                                            <label for="name">Data de Nascimento</label>
+                                            <input type="date" placeholder="dd/mm/yyyy">
+                                
+                                        
+                                    </div>
+                                    
+                                    <div class="cpf">
+                                
+                                            <label for="name">CPF</label>
+                                            <input type="number" placeholder="Ex: 000.000.000-0">
+                                    
+                                    </div>
+                            </div>
+                            <div class="comple">
+                                    <div class="cep">
+                                    
+                                            <label for="name">CEP</label>
+                                            <input type="number" placeholder="Digite seu CEP">
+                                        
+                                    </div>
+                                    
+                                    <div class="complemento">
+                                
+                                            <label for="complemento">Complemento</label>
+                                            <input type="name" placeholder="Ex: apartamento 3">
+                                
+                                    </div>
+                                    
+                            </div>
+                            <div class="lugar">
+                                    <div class="cidade">
+                                    
+                                            <label for="cidade">Cidade</label>
+                                            <input type="name" placeholder="Nome da Cidade">
+                                    
+                                    </div>
+                                    
+                                    <div class="bairro">
+                                
+                                            <label for="bairro">Bairro</label>
+                                            <input type="name" placeholder="Nome do Bairro">
+                                
+                                    </div>
+
+                            </div>
+         <div class="residencia">
+                       <div class="rua">
+                                        
+                                            <label for="rua">Rua</label>
+                                            <input type="name" placeholder="Nome da Rua">
+                                        
+                                    </div>
+                                    
+                                    <div class="numeroResidencia">
+                                        
+                                            <label for="numero da residencia">Numero da Residencia</label>
+                                            <input type="number" placeholder="N:">
+                                        
+                                    </div>
+                                    
+                            </div>
+                            
+                            
+<div class="trabalha">
+        <label for="name">Trabalha?</label>
+
+        <div class="trabalhaSim">
+                <input type="radio" name="r1" id="radio1" class="ativo" checked> Sim
+                <span class="check"></span>
+                
+        </div>
+        <div class="trabalhaNao">
+
+                <input type="radio" name="r1" id="radio1" class="ativo" checked> Não
+                <span class="check"></span>
+        </div>
+                                        
+</div>
                     
-            
+                            <div class="criarSenha">
+                                <label for="CRIAR SENHA">Criar senha</label>
+                                <input type="password" placeholder="Digite sua Senha">
+                            </div>
+                    
+                            <div class="confirmarSenha">
+                                <label for="confirmar senha">Confirmar senha</label>
+                                <input type="password" placeholder="Digite novamente sua Senha">
+                            </div>
+                        
 
-        </div>
-        <div class="e-mail">
-        
-                <label for="name">E-mail</label>
-                <input type="name" placeholder="Digite seu e-mail">
-            
-        </div>
-        <div class="data de nascimento">
-        
-                <label for="data de nascimento">Data de Nascimento</label>
-                <input type="date" placeholder="dd/mm/yyyy">
-    
-            
-        </div>
-        
-        <div class="cpf">
-    
-                <label for="name">CPF</label>
-                <input type="number" placeholder="Ex: 000.000.000-0">
-        
-        </div>
-        
-        <div class="cep">
-        
-                <label for="name">CEP</label>
-                <input type="number" placeholder="Digite seu CEP">
-            
-        </div>
-        
-        <div class="complemento">
-    
-                <label for="complemento">Complemento</label>
-                <input type="name" placeholder="Ex: apartamento 3">
-    
-        </div>
-        
-        <div class="cidade">
-        
-                <label for="cidade">Cidade</label>
-                <input type="name" placeholder="Nome da Cidade">
-        
-        </div>
-        
-        <div class="bairro">
-    
-                <label for="bairro">Bairro</label>
-                <input type="name" placeholder="Nome do Bairro">
-    
-            
-        </div>
-        
-        <div class="rua">
-            
-                <label for="rua">Rua</label>
-                <input type="name" placeholder="Nome da Rua">
-            
-        </div>
-        
-        <div class="numero da residencia">
-            
-                <label for="numero da residencia">Numero da Residencia</label>
-                <input type="number" placeholder="N:">
-            
-        </div>
-        
-        <div class="trabalha">
-        
-                <label for="trabalha">Trabalha?</label>
-                <input type="radio" placeholder="Sim">
-                <input type="radio" placeholder="Nao">
-            
-        </div>
 
-        <div class="criar senha">
-            <label for="criar senha">Criar Senha</label>
-            <input type="password" placeholder="Digite sua Senha">
-        </div>
-
-        <div class="confirmar senha">
-            <label for="confirmar senha">Confirmar Senha</label>
-            <input type="password" placeholder="Digite novamente sua Senha">
-        </div>
+        </main>
 
         
     </div>
